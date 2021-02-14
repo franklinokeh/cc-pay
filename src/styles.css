@@ -1,1 +1,47 @@
-/* You can add global styles to this file, and also import other style files */
+
+.alert{
+ padding: 7px!important;
+ font-family: "FuturaICG";
+ margin-bottom: 5px!important;
+}
+ .btn{
+   font-family: "FuturaICG";
+   color: #333!important;
+   background-color: #ebebeb!important;
+   border-color: #adadad!important;
+ }
+.btn-block {
+    display: block;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+}
+.btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+}
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+::-webkit-input-placeholder { /* Edge */
+  font-family: "FuturaICG"
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ font-family: "FuturaICG"
+}
+::placeholder {
+ font-family: "FuturaICG"
+}
+
+.cta-container .cta-gradient {
+    background-image: linear-gradient(to right, #38ccf5 0%, #008cc9 51%, #38ccf5 100%);
+    background-size: 200% 100%;
+    color: #FFFFFF;
+    padding: calc(1.2em + 2px) calc(1.8em + 2px);
+    border: none;
+}

@@ -3,6 +3,20 @@
   margin-left: 300px
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+legend {
+  margin: 8px 0;
+  font-family: "FuturaICG"
+}
+
+label.control-label{
+ font-family: "FuturaICG"
+}
 .card {
   margin-bottom: 1.5rem
 }
@@ -37,10 +51,36 @@
   padding: 1.25rem
 }
 
+
+.form-control{
+ height: 45px;
+ }
+
 .form-control:focus {
   color: #5c6873;
   background-color: #fff;
-  border-color: #c8ced3 !important;
+  border-color: 1px solid #38ccf5 !important;
   outline: 0;
   box-shadow: 0 0 0 #F44336
+}
+
+.btn-primary {
+    background-image: linear-gradient(to right, #38ccf5 0%, #2364d2 51%, #38ccf5 100%);
+    background-size: 200% 100%;
+    color: #FFFFFF;
+    padding: calc(0.5em + 2px) calc(1.8em + 2px);
+    border: none;
+}
+
+.form-content{
+ background: #f9f9f9;
+ border:1px solid #eee;
+ border-radius: 10px;
+ margin: 1em!important;
+ padding: 1em;
+ -webkit-box-shadow: inset -8px 3px 86px 25px rgba(24,28,28,0.1);
+ -moz-box-shadow: inset -8px 3px 86px 25px rgba(24,28,28,0.1);
+ box-shadow: inset -8px 3px 86px 25px rgba(24,28,28,0.1);
+ /* width: 50%; */
+ /* text-align:center; */
 }
