@@ -45,10 +45,7 @@ export class CreditCardPaymentStoreEffects {
         return this.dataService.makePayment(paymentData).pipe(
           map((response) => {
             if (response.body.status === 'success') {
-              this.toasterService.pop(
-                'success',
-                'SUCCESSFUL',
-                'Your payment was successful'
+              this.toasterService.pop( 'success',  'Success',  'Card payment was successful'
               );
               this.router.navigate([''])
               returnedAction = payWithCardSuccess({creditCardData: paymentData});

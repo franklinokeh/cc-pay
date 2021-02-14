@@ -11,7 +11,7 @@ import { CreditCardState } from './models/credit-card.interface';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'fe-test-eddy';
+  title = 'cc-pay';
   toasterConfig: ToasterConfig;
   creditCard$: Observable<CreditCardState>;
 
